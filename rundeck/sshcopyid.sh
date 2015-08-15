@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-if { $argc != 3 } {
+if { $argv != 3 } {
   puts stderr "usage: ./sshcopyid.sh host pass user"
   exit 2
 }
