@@ -11,6 +11,6 @@ set passwd [lindex $argv 1]
 
 spawn ssh-copy-id $user@$host
 expect "assword:"
-send "$pass\n"
+send "$passwd\n"
 
 expect eof
