@@ -1,7 +1,7 @@
 #!/usr/bin/expect -f
 
 if { $argv != 3 } {
-  puts stderr "usage: ./sshcopyid.sh host pass user"
+  puts stderr "usage: ./sshcopyid.sh host passwd user"
   exit 2
 }
 
