@@ -1,3 +1,3 @@
 #!/bin/bash
 
-yum install -y vim links expect screen 
+sudo yum install -y vim links expect screen 
